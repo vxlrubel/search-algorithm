@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Algorithm</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div class="header">
+                <h2>Hash Table Search - [ <span class="small">43.25M data</span> ]</h2>
+                <p>Search from <strong>4,325,010 </strong> or <strong>(43.25M data)</strong> items.</p>
+            </div>
+            <div class="content">
+                <div id="show-hash-table-result" class="show-result"></div>
+            </div>
+
+            <form action="javascript:void(0)" class="footer">
+                <input type="search" id="player-search-hash-table" placeholder="search by name" list="players">
+            </form>
+        </div>
+
+        <div>
+            <div class="header">
+                <h2>Binary Search - [ <span class="small">43.25M data</span> ]</h2>
+                <p>Search from <strong>4,325,010 </strong> or <strong>(43.25M data)</strong> items.</p>
+            </div>
+            <div class="content">
+                <div id="show-result" class="show-result"></div>
+            </div>
+
+            <form action="javascript:void(0)" class="footer">
+                <input type="search" id="player-search" placeholder="search by name" list="players">
+            </form>
+        </div>
+    </div>
+    
+    <datalist id="players">
+        <option value="Alex">
+        <option value="Ben">
+        <option value="Chris">
+        <option value="David">
+        <option value="Ethan">
+        <option value="Finn">
+        <option value="Gabe">
+        <option value="Henry">
+        <option value="Isaac">
+        <option value="Jack">
+        <option value="Kyle">
+        <option value="Liam">
+        <option value="Mason">
+        <option value="Noah">
+        <option value="Owen">
+        <option value="Paul">
+        <option value="Quinn">
+        <option value="Ryan">
+        <option value="Sam">
+        <option value="Tyler">
+        <option value="Umar">
+        <option value="Victor">
+        <option value="Will">
+        <option value="Xander">
+        <option value="Yusuf">
+        <option value="Zack">
+        <option value="Aaron">
+        <option value="Blake">
+        <option value="Cody">
+        <option value="Dylan">
+        <option value="Eli">
+        <option value="Felix">
+        <option value="Grant">
+        <option value="Hayden">
+        <option value="Ian">
+        <option value="Jake">
+        <option value="Kaden">
+        <option value="Leo">
+        <option value="Miles">
+        <option value="Nate">
+        <option value="Oscar">
+        <option value="Preston">
+        <option value="Reid">
+        <option value="Shawn">
+        <option value="Trent">
+        <option value="Uri">
+        <option value="Vince">
+        <option value="Wes">
+        <option value="Xavier">
+        <option value="Zane">
+        <option value="Adam">
+        <option value="Bryce">
+        <option value="Caleb">
+        <option value="Dean">
+        <option value="Emmett">
+        <option value="Frank">
+        <option value="Gavin">
+        <option value="Harvey">
+        <option value="Jace">
+        <option value="Kirk">
+        <option value="Logan">
+        <option value="Mark">
+        <option value="Nick">
+        <option value="Omar">
+        <option value="Perry">
+        <option value="Quentin">
+        <option value="Riley">
+        <option value="Scott">
+        <option value="Toby">
+        <option value="Ulysses">
+        <option value="Vernon">
+        <option value="Wayne">
+        <option value="Xeno">
+        <option value="Yosef">
+        <option value="Zion">
+        <option value="Alvin">
+        <option value="Brent">
+        <option value="Clint">
+        <option value="Derek">
+        <option value="Ezekiel">
+        <option value="Freddie">
+        <option value="Grady">
+        <option value="Hudson">
+        <option value="Jay">
+        <option value="Keith">
+        <option value="Lenny">
+        <option value="Marty">
+        <option value="Neal">
+        <option value="Orion">
+        <option value="Porter">
+        <option value="Quade">
+        <option value="Ron">
+        <option value="Silas">
+        <option value="Tate">
+        <option value="Ulric">
+        <option value="Vaughn">
+        <option value="Wade">
+        <option value="Zeke">
+        <option value="Yahir">
+        <option value="Xzavier">
+    </datalist>
+    <script src="main.js"></script>
+</body>
+</html>
